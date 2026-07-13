@@ -1,0 +1,53 @@
+.features-wrapper {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.features-container {
+    width: 100%;
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+
+}
+
+.features-list {
+    display: flex;
+    gap: 24px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.feature {
+    width: calc((100% - 24px * 3) / 4);
+}
+
+.feature-icon-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 264px;
+    height: 112px;
+    margin-bottom: 8px;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    background-color: #f4f4fd;
+}
+
+.feature-name {
+    text-align: left;
+}
+
+.feature-description {
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.header-3.feature-name {
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
