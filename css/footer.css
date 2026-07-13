@@ -36,6 +36,8 @@
 }
 
 .paragraph-media {
+    font-weight: 500;
+    letter-spacing: 0.02em;
     color: #FFFFFF;
     width: 96px;
     height: 24px;
@@ -57,7 +59,7 @@
     background-color: #31d0aa;
 }
 
-..social-icon-media {
+.social-icon-media {
     fill: #f4f4fd;
 }
 

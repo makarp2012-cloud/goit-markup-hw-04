@@ -48,10 +48,9 @@
     transform: translateY(100%);
     display: flex;
     align-items: flex-end;
-    padding: 20px;
-    background-color: rgba(21, 101, 192, 0.9);
+    padding: 40px 32px;
+    background-color: #4d5ae5;
     transition: transform 250ms ease-in-out;
-    /* Додай position, top, left, width, height, transform, transition */
 }
 
 .portfolio-item:hover .overlay {
@@ -60,8 +59,9 @@
 
 .overlay-text {
     font-size: 16px;
-    color: #ffffff;
+    color: #f4f4fd;
     line-height: 1.5;
+    letter-spacing: 0.02em
 }
 
 .portfolio-item img {
